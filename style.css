@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.Conteiner {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    width: 50%;
+    height: 75vh;
+}
+body {
+    background-color: #485161;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* tittle and description */
+.contentleft {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    max-width: 55%;
+    width: 55%;
+    height: fit-content;
+    gap: 20px;
+}
+ .contentleft h1 {
+    font-size: 44px;
+    color: #485161;
+    width: 80%;
+    padding: 0%;
+}
+.contentleft p {
+    font-size: 12px;
+    width: 80%;
+} 
+
+.contentleft ul {
+    font-size: 12px;
+    width: 80%;   
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+}
+
+.contentleft ul li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.form {
+    width: 80%;
+}
+label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+input {
+    color: rgba(97, 97, 97, 0.329);
+    outline: none;
+    width: 93%;
+    max-width: 100%;
+    border: 1px solid rgba(77, 77, 77, 0.486);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 18px;
+} 
+button {
+    background-color: #485161;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    width: 100%;
+    border: 1px solid rgba(77, 77, 77, 0.486);
+    border-radius: 5px;
+    padding: 10px;
+}
+.contentright {
+    max-width: 45%;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentright .bg-img {
+    background: url(./assets/images/illustration-sign-up-desktop.svg) no-repeat;
+    background-size: contain;
+    width: 92%;
+    height: 92%;
+}
